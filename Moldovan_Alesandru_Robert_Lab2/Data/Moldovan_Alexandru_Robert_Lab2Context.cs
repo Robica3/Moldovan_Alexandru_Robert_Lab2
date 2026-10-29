@@ -1,0 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+
+public class Moldovan_Alexandru_Robert_Lab2Context(DbContextOptions<Moldovan_Alexandru_Robert_Lab2Context> options) : DbContext(options)
+{
+    public DbSet<Moldovan_Alexandru_Robert_Lab2.Models.Book> Book { get; set; } = default!;
+}
