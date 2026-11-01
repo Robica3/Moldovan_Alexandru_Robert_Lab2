@@ -1,0 +1,10 @@
+﻿namespace Moldovan_Alexandru_Robert_Lab2.Models
+{
+    public class Category
+    {
+        public int ID {  get; set; }
+        public string CategoryName { get; set; }
+        public ICollection<BookCategory>? BookCategories {  get; set; }
+        public object CategoryID { get; internal set; }
+    }
+}
